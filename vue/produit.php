@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <title>Document</title>
-</head>
-<body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#" >ACS</a>
-          <div class="navbar jutify content-end" style="font-weight: bold;">
-            <a class="nav-link active text-dark" href="#">Accueil</a>
-            <a class="nav-link active text-dark" href="produit.php">Produit</a>
-            <a class="nav-link active text-dark" href="#">Nos Services</a>
-            <a class="nav-link active text-dark" href="#">Contact</a>
-            <a class="nav-link active text-dark" href="panier.php">Panier</a>
-          </div>
-        </div>
-       </nav>
-        <!-- lister les produits -->
+
+  <?php include ('header/header.php') ?> 
+  <!-- lister les produits -->
+  <h2 class="text-center t p-5"><strong>Produits</strong></h2>
        <section class="container">
          <div class="row">
             <?php
@@ -44,5 +24,47 @@
               ?>
          </div> 
        </section>
+  <section class="">
+      <div class="container text-center">
+        <h2 class="text-uppercase titre p-5"><strong>Nos marques d'appareils :</strong></h2>
+        <img class="espace" src="../static/logo/midea.png" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/wilson.png" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/gree.png" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/vestel.jpg" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/astech.jpg" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/serico.png" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/beko.png" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/westpool.jpg" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/lg.png" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/samsung.jpg" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/airwell.jpg" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/solstar.jpg" alt="" width="50" height="50">
+        <img class="espace" src="../static/logo/hisense.png" alt="" width="50" height="50">
+        
+      </div>
+  </section>
+
+  <!-- marques electromenagers -->
+  <section>
+    <h2 class="text-uppercase text-center titre p-5"><strong>Nos marques électroménagers</strong></h2>
+    <marquee behavior="" direction="left">
+      <img src="../static/logo/airwell.jfif" alt="">
+      <img src="../static/logo/astech.jfif" alt="">
+      <img src="../static/logo/electro.jfif" alt="">
+      <img src="../static/logo/electromenager.jfif" alt="">
+      <img src="../static/logo/hisense.jfif" alt="">
+      <img src="../static/logo/LG.jfif" alt="">
+      <img src="../static/logo/midea.jfif" alt="">
+      <img src="../static/logo/solstar.jfif" alt="">
+    </marquee>
+  </section>
+  
+    <!-- Inclure le footer -->
+  <?php
+    include ('footer/footer.php');
+    ?>
 </body>
 </html>
+
+      
+  
