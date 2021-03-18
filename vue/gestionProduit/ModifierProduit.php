@@ -2,11 +2,12 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <?php
 include ('../../model/bd.php');
+include ('produit.php');
  $id=$_GET['id'];
  ?>
 <form class=" p-4" method="POST" action="EditText.php" enctype="multipart/form-data">
           <div class="row">
-            <div class="offset-1 col-4">
+            <div class="offset-4 card bg-light col-md-4 font-weight-bolder">
                 <h4>Formulaire de modification produit</h3>
               <label >Nom</label>
               <input type="text" class="form-control" name="nomPro" value="<?php $rst=$conn->query("SELECT nomProduit FROM produit WHERE id=$id");

@@ -3,12 +3,12 @@ include ('../model/bd.php');
 if(isset($_POST['ajouter'])){
 $imgName = basename($_FILES['imgPro']['name']);
 $dossier = '../static/img/';
-$extensions = array('.png', '.gif', '.jpg', '.jpeg');
+$extensions = array('.png', '.gif', '.jpg', '.jpeg', '.jfif');
 $extension = strrchr($_FILES['imgPro']['name'], '.');
 if(!in_array($extension, $extensions))
  //Si l'extension n'est pas dans le tableau
 {
-     $erreur = 'Vous devez inserer un fichier de type png, gif, jpg ou jpeg...';
+     $erreur = 'Vous devez inserer un fichier de type png, gif, jpg, jfif ou jpeg...';
      echo $erreur;
 }else if($imgName>8000)
 {
