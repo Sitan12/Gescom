@@ -1,7 +1,7 @@
 
   <?php include ('header/header.php') ?> 
   <!-- lister les produits -->
-  <h2 class="text-center t p-5"><strong>Produits</strong></h2>
+  <h2 class="text-center titre p-5"><strong>Produits</strong></h2>
        <section class="container">
          <div class="row">
             <?php
@@ -16,7 +16,7 @@
                 <div class="card-body">
                   <h5 class="card-title"  ><?=$row['nomProduit']?></h5>
                   <p class="card-text"><?=$row['descriptionProduit']?></p>
-                  <a href="panier.php?id=<?=$row['id']?>" class="btn btn-success" >Contactez-nous</a>
+                  <a href="panier.php?id=<?=$row['id']?>" class="btn btn-success">Contactez-nous</a>
                 </div>
               </div>
                 <?php
@@ -26,7 +26,7 @@
        </section>
   <section class="">
       <div class="container text-center">
-        <h2 class="text-uppercase titre p-5"><strong>Nos marques d'appareils :</strong></h2>
+        <h2 class="titre p-5"><strong>Nos marques d'appareils :</strong></h2>
         <img class="espace" src="../static/logo/midea.png" alt="" width="50" height="50">
         <img class="espace" src="../static/logo/wilson.png" alt="" width="50" height="50">
         <img class="espace" src="../static/logo/gree.png" alt="" width="50" height="50">
@@ -46,7 +46,7 @@
 
   <!-- marques electromenagers -->
   <section>
-    <h2 class="text-uppercase text-center titre p-5"><strong>Nos marques électroménagers</strong></h2>
+    <h2 class="text-center titre p-5"><strong>Nos marques électroménagers</strong></h2>
     <marquee behavior="" direction="left">
       <img src="../static/logo/airwell.jfif" alt="">
       <img src="../static/logo/astech.jfif" alt="">

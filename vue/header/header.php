@@ -17,19 +17,23 @@
     * {
         margin: 0;
         padding: 0;
+        font-family:
       }
 
 
       header {
-        background-image: url(../static/representationdacs/fourniture.jpg);
+        background-image: url(../static/representationdacs/fourniture1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        /* height: 700px;
-        color: white; */
+        color: white;
       }
       .intro {
-        padding-top: 186px;
-        padding-bottom: 180px;
+        padding-top: 5%;
+        padding-bottom: 17%;
+      }
+
+      .bou {
+        padding-top: 100px;
       }
 
       .titre {
@@ -58,10 +62,7 @@
   </style>
   </head>
 <body>
-
-  <header>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand bg-light rounded-pill" href="#"><img src="../static/img/logo ACS.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pli" aria-controls="pli" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,7 +77,7 @@
               <a class="nav-link" style="color: #32459d;" href="produit.php">Produits</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: #32459d;" href="#services">Services</a>
+              <a class="nav-link" style="color: #32459d;" href="accueil.php#services">Services</a>
             </li>
              <li class="nav-item">
               <a class="nav-link" style="color: #32459d;" href="#contact">Contact</a>
@@ -85,13 +86,16 @@
         </div>
       </div>
     </nav>
+  <header>
+
+    
 
       <div class="text-center intro">  
 
         <!-- <div class="intro"> -->
-          <h2 class="h2"><strong>ACS (Alliance Customer Service)</strong></h2>
-          <p>Une société évoluant dans le domaine du froid industriel et domestique.</p>
-          <div class="text-center"><a href="#contact"><button type="button" class="btn text-white bouton">Contactez-nous!</button></a></div>
+          <h1 class="h1"><strong>ACS (Alliance Customer Service)</strong></h1>
+          <h5>Une société évoluant dans le domaine du froid industriel et domestique.</h5>
+          <div class="text-center bou"><a href="#contact"><button type="button" class="btn text-white bouton">Contactez-nous!</button></a></div>
         <!-- </div> -->
         
       </div>

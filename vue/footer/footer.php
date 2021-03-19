@@ -67,7 +67,7 @@
             <i class="fab fa-instagram-square"></i>
           </a>
            <a href="mailto:acsfroid@gmail.com">
-            <button type="button" class="btn border border-5 border-white bg-light font-weight-bold offset-1">
+            <button type="button" class="btn border border-1 border-primary bg-primary font-weight-bold offset-1 input-group text-white" style="font-weight: bold">
               Ecrivez-nous <i class="far fa-envelope"></i>
             </button>
           </a>

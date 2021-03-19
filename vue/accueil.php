@@ -7,42 +7,46 @@
   <!-- Section racourcis -->
   <section class="container-fluid p-5">
     <div class="container row m-auto d-flex p-5">
-      <div class="col-md-4 col-auto text-center">
+      <div class="col-md-4 col-auto card text-center">
         <h3 class="titre"><strong>Nos produits</strong></h3>
         <marquee behavior="" direction="left">
-          <img src="../static/representationdacs/split.jpg" alt="">
-          <img src="../static/representationdacs/electromenagers-acs.jpg" alt="">
+          <img src="../static/representationdacs/split.jpg" width="250" height="225"  alt="">
+          <img src="../static/representationdacs/electromenagers-acs.jpg" width="250" height="225"  alt="">
+          <img src="../static/representationdacs/images.jpg" width="250" height="225"  alt="">
         </marquee>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nobis, molestiae sed, nisi ex, deserunt a quidem autem voluptatum dolore voluptate eius quas. Qui alias nam, totam eum accusamus ducimus?
+        <p class="card mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nobis, molestiae sed, nisi ex, deserunt a quidem autem voluptatum dolore voluptate eius quas. Qui alias nam, totam eum accusamus ducimus?
         </p>
         <button type="button" class="btn btn-success bt ">Découvrez-nous!</button>
       </div>
-      <div class="col-md-4 col-auto text-center">
+      <div class="col-md-4 col-auto card text-center">
         <h3 class="titre"><strong>Nos réalisations<!-- La qualité et la rigueur dans le travail --></strong></h3>
         <marquee behavior="" direction="left">
-          <img src="../static/representationdacs/split.jpg" alt="">
-          <img src="../static/representationdacs/electromenagers-acs.jpg" alt="">
+          <img src="../static/representationdacs/tof1.jpg" width="250" height="225" alt="">
+          <img src="../static/representationdacs/tof2.jpg" width="250" height="225" alt="">
+          <img src="../static/representationdacs/tof3.jpg" width="250" height="225" alt="">
+          <img src="../static/representationdacs/tof4.jpg" width="250" height="225" alt="">
         </marquee>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nobis, molestiae sed, nisi ex, deserunt a quidem autem voluptatum dolore voluptate eius quas. Qui alias nam, totam eum accusamus ducimus?
+        <p class="card mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nobis, molestiae sed, nisi ex, deserunt a quidem autem voluptatum dolore voluptate eius quas. Qui alias nam, totam eum accusamus ducimus?
         </p>
         <button type="button" class="btn btn-success bt">Nos réalisations !</button>
       </div>
-      <div class="col-md-4 col-auto text-center">
+      <div class="col-md-4 col-auto card text-center">
         <h3 class="titre"><strong>Ce que nous faisons</strong></h3>
         <marquee behavior="" direction="left">
-          <img src="../static/representationdacs/split.jpg" alt="">
-          <img src="../static/representationdacs/electromenagers-acs.jpg" alt="">
+          <img src="../static/representationdacs/image1.jpg" width="250" height="225"  alt="">
+          <img src="../static/representationdacs/image2.png" width="250" height="225"  alt="">
+          <img src="../static/representationdacs/image3.png" width="250" height="225"  alt="">
         </marquee>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nobis, molestiae sed, nisi ex, deserunt a quidem autem voluptatum dolore voluptate eius quas. Qui alias nam, totam eum accusamus ducimus?
+        <p class="card mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nobis, molestiae sed, nisi ex, deserunt a quidem autem voluptatum dolore voluptate eius quas. Qui alias nam, totam eum accusamus ducimus?
         </p>
         <button type="button" class="btn btn-success bt">Découvrez-nous !</button>
       </div>
     </div>
   </section>
   <!-- A propos de nous -->
-  <section id="quiSommeNous">
-    <div class="text-center p-5" >
-      <h2 class="text-uppercase titre"><strong>A propos de nous</strong></h2>
+  <section id="quiSommeNous row">
+    <div class="text-center col-md-8 offset-md-2 d-flex justify-content-center p-5 card bg-light" >
+      <h2 class="titre"><strong>A propos de nous</strong></h2>
       <p class="p-3">
         Numéro un de l'électroménager ACS dispose d'une équipe de techniciens qualifiés mais aussi spécialisés pour vous garantir des prestations de qualité, en effet toujours dans le soucis de satisfaire sa clientèle nos techniciens vous accompagnent et vous conseillent afin de sécuriser vos installation et autres travaux
       </p>
@@ -53,7 +57,7 @@
   </section>
       <!-- lister les services -->
   <section class="container">
-    <div class="container p-5">
+    <div class="container card p-5 m-2 bg-light">
       <h2 class="text-center titre" id="services"><strong>Nos services</strong></h2>
       <div class="row p-4">
         <div class="col-md-3 col-auto">
@@ -100,7 +104,7 @@
   </section>
   <section>
       <div class="container text-center">
-        <h2 class="text-uppercase titre p-5"><strong>Nos marques d'appareils :</strong></h2>
+        <h2 class="titre p-5"><strong>Nos marques d'appareils :</strong></h2>
         <img class="espace" src="../static/logo/midea.png" alt="" width="50" height="50">
         <img class="espace" src="../static/logo/wilson.png" alt="" width="50" height="50">
         <img class="espace" src="../static/logo/gree.png" alt="" width="50" height="50">
@@ -118,7 +122,7 @@
       </div>
   </section>
   <section>
-    <h2 class="text-center titre p-5"><strong>NOS PARTENAIRES</strong></h2>
+    <h2 class="text-center titre p-5"><strong>Nos partenaires</strong></h2>
     <marquee width="100%" scrollamount="5" scrolldelay="5">
       <!-- L'objet parcourt 2px chaque 10ms -->
       <img src="../static/partenaires/ccbm.jpg">
